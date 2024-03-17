@@ -15,13 +15,14 @@ This project utilizes an MPU6050 accelerometer and gyroscope sensor along with a
 
 ## Circuit Diagram
 <div align="center">
-  <img alt="circuitDiagram" src="circuit diagram.jpg" />
+  <img alt="circuitDiagram" src="circuit diagram.jpg" width="400" height="300" />
 </div>
+
 
 ## Installation and Setup
 1. Connect the MPU6050 sensor to the Arduino Micro according to the circuit diagram.
 2. Download and install the Arduino IDE from [here](https://www.arduino.cc/en/software).
-4. Open the Arduino IDE and load the `HeadMouse.ino` sketch from the downloaded repository.
+4. Open the Arduino IDE and load the `momentandauto-click.ino` sketch from the downloaded repository.
 5. Connect the Arduino Micro to your computer using a USB cable.
 6. Select the correct board and port in the Arduino IDE.
 7. Upload the sketch to the Arduino Micro.
