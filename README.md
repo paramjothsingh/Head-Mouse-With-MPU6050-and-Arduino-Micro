@@ -14,7 +14,9 @@ This project utilizes an MPU6050 accelerometer and gyroscope sensor along with a
 - Arduino IDE
 
 ## Circuit Diagram
-![Circuit Diagram](circuit diagram.jpg)
+<div align="center">
+  <img alt="circuitDiagram" src="circuit diagram.jpg" />
+</div>
 
 ## Installation and Setup
 1. Connect the MPU6050 sensor to the Arduino Micro according to the circuit diagram.
