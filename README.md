@@ -41,18 +41,6 @@ This project utilizes an MPU6050 accelerometer and gyroscope sensor along with a
 
 # Code Explanation
 
-This code is designed to control the mouse pointer using the movement of the head tracked by an MPU6050 accelerometer and gyroscope sensor. Additionally, it includes an assisted click feature that allows users to perform mouse clicks by pausing the movement of the pointer within a specified range.
-
-## Components Used
-- Arduino Micro
-- MPU6050 Accelerometer and Gyroscope Sensor
-
-## Libraries Used
-- Wire.h: Library for I2C communication.
-- I2Cdev.h: I2C device library for communicating with MPU6050.
-- MPU6050.h: Library for interfacing with MPU6050 sensor.
-- Mouse.h: Library for emulating mouse functions.
-
 ## Initialization
 - The code initializes serial communication for debugging purposes and starts communication with the MPU6050 sensor via I2C.
 
@@ -80,9 +68,11 @@ This code is designed to control the mouse pointer using the movement of the hea
 - The code includes comments guiding users on how to calibrate the cursor movement values (vx and vy) based on their specific setup.
 - By using a test code, users can adjust the values to ensure accurate cursor movement according to their head movements.
 
-##Result:
+
+
+## Result
 <div align="center">
-  <img alt="circuitDiagram" src="result.jpg" width="600" height="400" />
+  <img alt="circuitDiagram" src="result.jpg" width="400" height="300" />
 </div>
 
 
